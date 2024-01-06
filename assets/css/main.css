@@ -1053,8 +1053,8 @@ section {
 .events .event-item {
   background-size: cover;
   background-position: cente;
-  min-height: 600px;
-  padding: 30px;
+  min-height: 400px;
+  padding: 20px;
 }
 
 @media (max-width: 575px) {
@@ -1208,6 +1208,19 @@ section {
 .chefs .chef-member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+.chefs .chef-member .member-info button [type=submit] {
+  background: var(--color-primary);
+  border: 0;
+  padding: 14px 60px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.chefs .chef-member .member-info button [type=submit]:hover {
+  background: #ec2727;
 }
 
 /*--------------------------------------------------------------
