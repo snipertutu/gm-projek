@@ -1,6 +1,7 @@
 /**
 * Template Name: Yummy - v1.2.1
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+* Template URL: https://
+ootstrapmade.com/yummy-bootstrap-restaurant-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -1054,7 +1055,7 @@ section {
   background-size: cover;
   background-position: cente;
   min-height: 400px;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 575px) {
@@ -1116,6 +1117,7 @@ section {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
+
 
 /*--------------------------------------------------------------
 # Chefs Section
@@ -1210,16 +1212,16 @@ section {
   opacity: 1;
 }
 
-.chefs .chef-member .member-info button [type=submit] {
+.chefs .chef-member .member-info .btn-chef-member {
   background: var(--color-primary);
   border: 0;
-  padding: 14px 60px;
+  padding: 6px 20px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 
-.chefs .chef-member .member-info button [type=submit]:hover {
+.chefs .chef-member .member-info .btn-chef-member {
   background: #ec2727;
 }
 
